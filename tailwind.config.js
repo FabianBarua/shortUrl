@@ -2,7 +2,8 @@
 module.exports = {
   content: ['./views/*.pug', './public/js/*/**.js'],
   theme: {
-    extend: {}
+    extend: {},
+    fontFamily: { inter: ['inter', 'sans-serif'] }
   },
   plugins: []
 }
